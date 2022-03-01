@@ -2,8 +2,9 @@
 
 **Scarlet-v1.0**
 
-* Based on linux v4.19.231 and LA.UM.10.2.r1-03300-SDMXX0.0.
-* Added S Wifi Drivers based on LA.UM.10.2.r1-03300-SDMXX0.0.
+* Rebased off LA.UM.10.2.r1-03300-SDMXX0.0.
+* Merged ACK v4.19.231.
+* Imported S Wifi Drivers based on LA.UM.10.2.r1-03300-SDMXX0.0.
 * Merged f2fs-stable of jaegeuk/f2fs-stable.
 * Added exFAT driver.
 * Debloated wifi drivers.
@@ -30,7 +31,7 @@
 * Removed CAF's tracings on EXT4 & F2FS.
 * Introduced rapid GC for F2FS.
 * Moved many driver inits to async and sync probes.
-* Fixed tons of logspams at dmesg,
+* Fixed tons of logspams at dmesg.
 * Silenced many unwanted logs.
 * Killed tons of debug bloats.
 * Updated dtc to upstream version v1.6.1-30-g45f3d1a.
@@ -49,7 +50,7 @@
 * Backported Fuse Passthrough from linux-5.10.
 * Resolved many compiler given warnings.
 * Backported ZRAM from mainline.
-* Add Backported ZSTD patches from mainline (Backported by @ElectroPerf) and set as default ZRAM compression algorithm.
+* Add Backported ZSTD patches from mainline (Backported by @ElectroPerf & @cyberknight777) and set as default ZRAM compression algorithm.
 * Enabled BPF JIT.
 * Added and tuned Simple Low Memory Killer (SLMK).
 * Backported binder patches from mainline.
